@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonLogging.ExceptionHandlers
+namespace CommonLogging.ExceptionTypes
 {
     public class DataAccessException : BaseException, ISerializable
     {
